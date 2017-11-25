@@ -7,16 +7,17 @@ Parent::Parent(string name) {
 	this->child = make_unique<Child>(childName);
 }
 
-Parent::Parent(Parent& other) {
+Parent::Parent(const Parent& other) {
 	cout << "Parent cctor" << endl;
 	this->name = other.name;
-	this->child = move(other.child);
+	string childName = other.child->getName().append(" (copy)");
+	this->child = make_unique<Child>(childName);
 }
 
 Parent::~Parent() {
 }
 
-Parent& Parent::operator=(Parent& other) {
+Parent& Parent::operator=(const Parent& other) {
 	cout << "Parent assignment" << endl;
 
 	if (this == &other) {
@@ -24,7 +25,8 @@ Parent& Parent::operator=(Parent& other) {
 	}
 
 	this->name = other.name;
-	this->child = move(other.child);
+	string childName = other.child->getName().append(" (copy)");
+	this->child = make_unique<Child>(childName);
 
 	return *this;
 }

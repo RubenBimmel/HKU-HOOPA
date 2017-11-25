@@ -11,6 +11,7 @@ public:
 	Child(string name);
 	Child(const Child& other);
 	~Child();
+	string getName();
 
 private:
 	string name;

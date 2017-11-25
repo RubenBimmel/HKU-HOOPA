@@ -11,11 +11,11 @@ class Parent {
 public:
 	Parent(string name);
 
-	Parent(Parent& other);
+	Parent(const Parent& other);
 
 	virtual ~Parent();
 
-	Parent& operator=(Parent& other);
+	Parent& operator=(const Parent& other);
 
 	friend ostream& operator<<(ostream& os, const Parent& parent);
 

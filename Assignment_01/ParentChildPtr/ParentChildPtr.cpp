@@ -22,7 +22,7 @@ int main() {
 	Parent* p3 = new Parent("Parent3");
 	cout << "P3:" << *p3 << endl;
 
-	*p3 = *p2; // roept de assignment operator aan
+	*p3 = *p1; // roept de assignment operator aan
 	cout << "P3:" << *p3 << endl;
 
 	delete p1;
