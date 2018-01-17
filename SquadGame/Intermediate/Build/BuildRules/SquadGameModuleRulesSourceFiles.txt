@@ -1,3 +1,0 @@
-D:\HKU\Jaar2Dev\HKU-HOOPA\SquadGame\Source\SquadGame\SquadGame.Build.cs
-D:\HKU\Jaar2Dev\HKU-HOOPA\SquadGame\Source\SquadGame.Target.cs
-D:\HKU\Jaar2Dev\HKU-HOOPA\SquadGame\Source\SquadGameEditor.Target.cs
