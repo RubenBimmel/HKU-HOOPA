@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SquadGame.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{FD41BD2B-49CD-4960-9273-F42C74627654}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SquadGame.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SquadGameEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{67E9F0E8-A926-4CD3-995B-5878420D61F0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SquadGame">
+			<UniqueIdentifier>{DDFB82A4-460C-4B2A-8030-0421F7D35540}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SquadGame\SquadGame.Build.cs">
+			<Filter>Source\SquadGame</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SquadGame\SquadGame.cpp">
+			<Filter>Source\SquadGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SquadGame\SquadGame.h">
+			<Filter>Source\SquadGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SquadGame\SquadGameAIController.cpp">
+			<Filter>Source\SquadGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SquadGame\SquadGameAIController.h">
+			<Filter>Source\SquadGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SquadGame\SquadGameCharacter.cpp">
+			<Filter>Source\SquadGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SquadGame\SquadGameCharacter.h">
+			<Filter>Source\SquadGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SquadGame\SquadGameGameMode.cpp">
+			<Filter>Source\SquadGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SquadGame\SquadGameGameMode.h">
+			<Filter>Source\SquadGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SquadGame\SquadGamePlayerController.cpp">
+			<Filter>Source\SquadGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SquadGame\SquadGamePlayerController.h">
+			<Filter>Source\SquadGame</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
